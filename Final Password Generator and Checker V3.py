@@ -20,8 +20,8 @@ def randSpecial():
     return random.randint(34, 39)
 
 
-def isSpecial(lsd):
-    for x in lsd:
+def isSpecial(pwlist):
+    for x in pwlist:
         if x in '!#$%&':
             return True
 
